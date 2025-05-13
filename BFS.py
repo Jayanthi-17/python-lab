@@ -1,3 +1,17 @@
+'''
+Breadth-First Search (BFS)
+📘 Definition:
+BFS explores all the nodes level by level (breadth-wise) starting from a given node.
+It uses a queue (FIFO) to keep track of nodes to visit.
+
+🔧 How It Works:
+Start from a node.
+
+Visit it and add all its neighbors to a queue.
+
+Dequeue one node at a time and repeat the process.
+'''
+
 graph={
     'A':['B','C','D'],
     'B':['A','C','D'],
